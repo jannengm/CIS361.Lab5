@@ -1,3 +1,7 @@
+/*CIS 361 F16
+ *Lab 5 - Sorting a List of structures
+ *Mark Jannenga*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
