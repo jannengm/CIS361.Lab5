@@ -92,7 +92,7 @@ int compare (const void * a, const void * b)
 	// comes before the second, a value greater than 0 otherwise
 	// if( ((Mark *)a)->x < ((Mark *)b)->x )
 	// 	return -1;
-	int diff_x = ( ((Mark *)a)->x - ((Mark *)b)->x ) * 100;
-	int diff_y = ( ((Mark *)a)->y - ((Mark *)b)->y );
+	int diff_y = ( ((Mark *)b)->y - ((Mark *)a)->y ) * 100;
+	int diff_x = ( ((Mark *)a)->x - ((Mark *)b)->x );
 	return diff_x + diff_y;
 }
